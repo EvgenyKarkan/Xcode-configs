@@ -1,0 +1,15 @@
+//
+//  AdHoc.xcconfig
+//  Chall
+//
+//  Created by Evgeny Karkan on 27.08.14.
+//  Copyright (c) 2014 Evgeny Karkan. All rights reserved.
+//
+
+
+#include "Base.xcconfig"
+
+OTHER_CFLAGS = -fconstant-cfstrings
+
+GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+GCC_ENABLE_OBJC_EXCEPTIONS = YES;
